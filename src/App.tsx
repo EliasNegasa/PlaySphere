@@ -7,9 +7,9 @@ function App() {
     <Grid
       templateAreas={{
         base: `"nav" "main"`,
-        lg: `"nav nav" "aside main"`,
+        lg: `"nav nav nav nav" "aside main main main"`,
       }}
-      color="blackAlpha.700"
+      // color="blackAlpha.700"
       fontWeight="bold"
     >
       <GridItem p="2" area={'nav'}>
@@ -20,7 +20,7 @@ function App() {
           Side Bar
         </GridItem>
       </Show>
-      <GridItem pl="2" bg="green.300" area={'main'}>
+      <GridItem p="2" area={'main'}>
         <GameGrid />
       </GridItem>
     </Grid>
