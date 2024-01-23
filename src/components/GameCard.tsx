@@ -1,5 +1,6 @@
-import { Card, CardBody, Heading, Image, Stack, Text } from '@chakra-ui/react';
+import { Card, CardBody, Heading, Image, Stack } from '@chakra-ui/react';
 import { Game } from '../hooks/useGames';
+import PlatformIconList from './PlatformIconList';
 
 interface Props {
   game: Game;
@@ -7,24 +8,21 @@ interface Props {
 
 const GameCard = ({ game }: Props) => {
   return (
-    <Card >
+    <Card>
       <CardBody>
         <Image
           src={game.background_image}
           alt={game.name}
           borderRadius="lg"
           objectFit="cover"
-          height='200px'
-          width='100%'
+          height="200px"
+          width="100%"
         />
         <Stack mt="6" spacing="3">
           <Heading size="md">{game.name}</Heading>
-          <Text>
-            This game is perfect for modern tropical spaces, baroque inspired
-            spaces, earthy toned spaces and for people who love a chic design
-            with a sprinkle of vintage design.
-          </Text>
-          
+          <PlatformIconList
+            platforms={game.parent_platforms.map((p) => p.platform)}
+          />
         </Stack>
       </CardBody>
     </Card>
