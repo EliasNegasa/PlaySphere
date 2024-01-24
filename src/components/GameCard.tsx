@@ -17,7 +17,7 @@ interface Props {
 
 const GameCard = ({ game }: Props) => {
   return (
-    <Card>
+    <Card width="300px">
       <CardBody>
         <Image
           src={getOptimizedImage(game.background_image)}
