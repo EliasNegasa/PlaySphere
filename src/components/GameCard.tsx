@@ -9,6 +9,7 @@ import {
 import { Game } from '../hooks/useGames';
 import PlatformIconList from './PlatformIconList';
 import CriticScore from './CriticScore';
+import getOptimizedImage from '../utils/image-url';
 
 interface Props {
   game: Game;
@@ -19,7 +20,7 @@ const GameCard = ({ game }: Props) => {
     <Card>
       <CardBody>
         <Image
-          src={game.background_image}
+          src={getOptimizedImage(game.background_image)}
           alt={game.name}
           borderRadius="lg"
           objectFit="cover"
