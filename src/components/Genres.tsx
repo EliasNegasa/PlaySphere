@@ -1,15 +1,24 @@
 import { HStack, Image, Stack, Text } from '@chakra-ui/react';
-import useGenres from '../hooks/useGenres';
+import useGenres, { Genres as IGenres } from '../hooks/useGenres';
 import getOptimizedImage from '../utils/image-url';
 
-const Genres = () => {
+interface Props {
+  onSelectGenre: (genre: IGenres) => void;
+}
+
+const Genres = ({ onSelectGenre }: Props) => {
   const { data, errors } = useGenres();
+
   return (
     <>
       {errors && <p>{errors}</p>}
       <Stack p="2">
         {data.map((genre) => (
-          <HStack key={genre.slug}>
+          <HStack
+            key={genre.slug}
+            cursor="pointer"
+            onClick={() => onSelectGenre(genre)}
+          >
             <Image
               src={getOptimizedImage(genre.image_background)}
               alt={genre.name}
