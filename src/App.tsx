@@ -10,7 +10,10 @@ function App() {
         base: `"nav" "main"`,
         lg: `"nav nav nav nav" "aside main main main"`,
       }}
-      // color="blackAlpha.700"
+      templateColumns={{
+        base: '1fr',
+        lg: '200px 1fr',
+      }}
       fontWeight="bold"
     >
       <GridItem p="2" area={'nav'}>
