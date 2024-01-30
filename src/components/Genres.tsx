@@ -4,9 +4,10 @@ import getOptimizedImage from '../utils/image-url';
 
 interface Props {
   onSelectGenre: (genre: IGenres) => void;
+  selectedGenre: IGenres | null;
 }
 
-const Genres = ({ onSelectGenre }: Props) => {
+const Genres = ({ selectedGenre, onSelectGenre }: Props) => {
   const { data, errors } = useGenres();
 
   return (
@@ -27,7 +28,11 @@ const Genres = ({ onSelectGenre }: Props) => {
               height="40px"
               width="40px"
             />
-            <Text>{genre.name}</Text>
+            <Text
+              fontWeight={genre.id === selectedGenre?.id ? 'bold' : 'normal'}
+            >
+              {genre.name}
+            </Text>
           </HStack>
         ))}
       </Stack>
