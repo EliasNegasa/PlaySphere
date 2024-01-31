@@ -8,18 +8,29 @@ import {
 } from '@chakra-ui/react';
 import usePlatforms from '../hooks/usePlatforms';
 import { BiChevronDown } from 'react-icons/bi';
+import { Platform } from '../hooks/useGames';
 
-const PlatformSelector = () => {
+interface Props {
+  onSelectPlatform: (platform: Platform) => void;
+  selectedPlatform: Platform | null;
+}
+
+const PlatformSelector = ({ onSelectPlatform, selectedPlatform }: Props) => {
   const { data } = usePlatforms();
   return (
-    <Stack pb={3} width='300px'>
+    <Stack pb={3} width="300px">
       <Menu>
-        <MenuButton as={Button} rightIcon={<BiChevronDown />} textAlign='left'>
-          Platforms
+        <MenuButton as={Button} rightIcon={<BiChevronDown />} textAlign="left">
+          {selectedPlatform ? selectedPlatform?.name : 'Platforms'}
         </MenuButton>
         <MenuList>
           {data.map((platform) => (
-            <MenuItem key={platform.id}>{platform.name}</MenuItem>
+            <MenuItem
+              key={platform.id}
+              onClick={() => onSelectPlatform(platform)}
+            >
+              {platform.name}
+            </MenuItem>
           ))}
         </MenuList>
       </Menu>
