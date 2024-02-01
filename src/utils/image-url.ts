@@ -1,4 +1,4 @@
-import noImage from '../assets/game placeholder image.jpg';
+import noImage from '../assets/game placeholder.jpg';
 
 const getOptimizedImage = (url: string) => {
   if (!url) return noImage;
