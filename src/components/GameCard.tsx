@@ -17,7 +17,7 @@ interface Props {
 
 const GameCard = ({ game }: Props) => {
   return (
-    <Card >
+    <Card>
       <CardBody>
         <Image
           src={getOptimizedImage(game.background_image)}
@@ -28,13 +28,13 @@ const GameCard = ({ game }: Props) => {
           width="100%"
         />
         <Stack mt="6" spacing="3">
-          <Heading size="md">{game.name}</Heading>
           <HStack justifyContent="space-between">
             <PlatformIconList
               platforms={game.parent_platforms.map((p) => p.platform)}
             />
             <CriticScore score={game.metacritic} />
           </HStack>
+          <Heading size="md">{game.name}</Heading>
         </Stack>
       </CardBody>
     </Card>
