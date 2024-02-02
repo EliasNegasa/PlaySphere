@@ -7,21 +7,23 @@ PlayShere is a game discovery app built with React, TypeScript, and Vite. It lev
 - **Game Discovery:** Explore a vast collection of games and discover new titles based on your preferences.
 - **Detailed Information:** Access detailed information about each game, including descriptions, ratings, release dates, and more.
 - **Search Functionality:** Easily search for specific games or browse through categories to find what you're looking for.
+- **Filter by Platform:** Narrow down your search by filtering games based on different gaming platforms.
+- **Sorting Features:** Sort games based on criteria such as popularity, release date, rating, and more.
 - **Responsive Design:** Enjoy a consistent and user-friendly experience across various devices.
 
 ## Tech Stack
 
-- **React:** A popular JavaScript library for building user interfaces.
-- **TypeScript:** Adds static typing to JavaScript, enhancing code quality and developer productivity.
-- **Vite:** A fast and efficient frontend build tool that enhances the development experience.
-- **RAWG API:** Utilizes the RAWG Video Games Database API for fetching game-related data.
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![RAWG API](https://img.shields.io/badge/RAWG%20API-000000?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABV0lEQVR42mJ8+ld+jY3OVg4OMeMXP6fwTOpojyZIjZIi0Y7AP1Nv4DfgdAsF9Rr4DrwG+wNwX9E3YTUCsfj/v//PxZjUYqOIMpECMIAWLCdCSjQTQyNAUQpDLSNL8QjLC3qMsRbJpNE0olziFgYGKyCslCyqqkpxXEVCizFLYRnSKgZUgBkSaiZaAGMyDCWIZTBJwEaETQT7FhgZAoyZJAAJgIfDjCSCGBcAAAAASUVORK5CYII=)
 
 ## Getting Started
 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/EliasNegasa/PlayShere.git
+    git clone https://github.com/your-username/PlayShere.git
     ```
 
 2. Install dependencies:
@@ -45,7 +47,7 @@ PlayShere is a game discovery app built with React, TypeScript, and Vite. It lev
     npm run dev
     ```
 
-5. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view PlayShere.
+5. Open your browser and navigate to [http://localhost:5173](http://localhost:5173) to view PlayShere.
 
 ## Contributing
 
@@ -56,10 +58,6 @@ Contributions are welcome! If you'd like to contribute to PlayShere, please foll
 3. Make your changes and commit them.
 4. Push your branch to your fork.
 5. Submit a pull request with a clear description of your changes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
