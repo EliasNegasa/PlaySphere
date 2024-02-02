@@ -23,7 +23,7 @@ PlayShere is a game discovery app built with React, TypeScript, and Vite. It lev
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/PlayShere.git
+    git clone https://github.com/EliasNegasa/PlayShere.git
     ```
 
 2. Install dependencies:
