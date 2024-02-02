@@ -1,6 +1,6 @@
-# PlayShere - Game Discovery App
+# PlaySphere - Game Discovery App
 
-PlayShere is a game discovery app built with React, TypeScript, and Vite. It leverages the RAWG API to provide users with a seamless experience to explore, discover, and learn more about their favorite games.
+PlaySphere is a game discovery app built with React, TypeScript, and Vite. It leverages the RAWG API to provide users with a seamless experience to explore, discover, and learn more about their favorite games.
 
 ## Features
 
@@ -23,13 +23,13 @@ PlayShere is a game discovery app built with React, TypeScript, and Vite. It lev
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/EliasNegasa/PlayShere.git
+    git clone https://github.com/EliasNegasa/PlaySphere.git
     ```
 
 2. Install dependencies:
 
     ```bash
-    cd PlayShere
+    cd PlaySphere
     npm install
     ```
 
@@ -47,11 +47,11 @@ PlayShere is a game discovery app built with React, TypeScript, and Vite. It lev
     npm run dev
     ```
 
-5. Open your browser and navigate to [http://localhost:5173](http://localhost:5173) to view PlayShere.
+5. Open your browser and navigate to [http://localhost:5173](http://localhost:5173) to view PlaySphere.
 
 ## Contributing
 
-Contributions are welcome! If you'd like to contribute to PlayShere, please follow these steps:
+Contributions are welcome! If you'd like to contribute to PlaySphere, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
@@ -61,7 +61,7 @@ Contributions are welcome! If you'd like to contribute to PlayShere, please foll
 
 ## Acknowledgments
 
-- The PlayShere project is inspired by the RAWG game discovery platform.
+- The PlaySphere project is inspired by the RAWG game discovery platform.
 - Special thanks to the RAWG API for providing rich and up-to-date game data.
 
-Happy gaming with PlayShere! 🎮
+Happy gaming with PlaySphere! 🎮
