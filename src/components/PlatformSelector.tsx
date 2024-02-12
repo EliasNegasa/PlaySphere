@@ -6,9 +6,9 @@ import {
   MenuList,
   Stack,
 } from '@chakra-ui/react';
-import usePlatforms from '../hooks/usePlatforms';
 import { BiChevronDown } from 'react-icons/bi';
 import { Platform } from '../hooks/useGames';
+import usePlatforms from '../hooks/usePlatforms';
 
 interface Props {
   onSelectPlatform: (platform: Platform) => void;

@@ -1,9 +1,9 @@
 import {
+  Button,
   Menu,
   MenuButton,
-  Button,
-  MenuList,
   MenuItem,
+  MenuList,
   Stack,
 } from '@chakra-ui/react';
 import { BiChevronDown } from 'react-icons/bi';
