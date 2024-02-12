@@ -16,6 +16,7 @@ PlaySphere is a game discovery app built with React, TypeScript, and Vite. It le
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Chakra UI](https://img.shields.io/badge/Chakra%20UI-319795?style=for-the-badge&logo=chakra-ui&logoColor=white)
 ![RAWG API](https://img.shields.io/badge/RAWG%20API-000000?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABV0lEQVR42mJ8+ld+jY3OVg4OMeMXP6fwTOpojyZIjZIi0Y7AP1Nv4DfgdAsF9Rr4DrwG+wNwX9E3YTUCsfj/v//PxZjUYqOIMpECMIAWLCdCSjQTQyNAUQpDLSNL8QjLC3qMsRbJpNE0olziFgYGKyCslCyqqkpxXEVCizFLYRnSKgZUgBkSaiZaAGMyDCWIZTBJwEaETQT7FhgZAoyZJAAJgIfDjCSCGBcAAAAASUVORK5CYII=)
 
 ## Getting Started
