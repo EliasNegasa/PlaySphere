@@ -1,4 +1,4 @@
-# PlaySphere - Game Discovery App
+# [PlaySphere - Game Discovery App](https://play-sphere-six.vercel.app/)
 
 PlaySphere is a game discovery app built with React, TypeScript, and Vite. It leverages the RAWG API to provide users with a seamless experience to explore, discover, and learn more about their favorite games.
 
